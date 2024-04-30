@@ -19,16 +19,16 @@
      <rect>
       <x>190</x>
       <y>140</y>
-      <width>311</width>
+      <width>301</width>
       <height>261</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="Customers">
      <attribute name="title">
-      <string>Tab 1</string>
+      <string>Customers</string>
      </attribute>
      <widget class="QListView" name="customerView">
       <property name="geometry">
@@ -43,7 +43,7 @@
     </widget>
     <widget class="QWidget" name="products">
      <attribute name="title">
-      <string>Tab 2</string>
+      <string>Products</string>
      </attribute>
      <widget class="QListView" name="productsView">
       <property name="geometry">
@@ -58,7 +58,7 @@
     </widget>
     <widget class="QWidget" name="transactionsView">
      <attribute name="title">
-      <string>Page</string>
+      <string>Transactions</string>
      </attribute>
      <widget class="QListView" name="listView">
       <property name="geometry">
@@ -127,6 +127,9 @@
    </attribute>
   </widget>
   <widget class="QDockWidget" name="dockWidget_2">
+   <property name="windowTitle">
+    <string>Categories</string>
+   </property>
    <attribute name="dockWidgetArea">
     <number>1</number>
    </attribute>

@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include "product.h"
 #include "customer.h"
 #include "transaction.h"
@@ -46,4 +46,4 @@ int main() {
 
     return 0;
 }
-*/
+

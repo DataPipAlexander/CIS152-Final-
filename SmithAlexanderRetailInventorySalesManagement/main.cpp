@@ -1,4 +1,4 @@
-#include <QApplication>
+/*#include <QApplication>
 #include <QMainWindow>
 #include "ui_mainwindow.h"  // Include the generated header file
 
@@ -13,3 +13,4 @@ int main(int argc, char *argv[]) {
     window->show();
     return app.exec();
 }
+*/
